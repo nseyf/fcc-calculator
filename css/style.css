@@ -1,0 +1,51 @@
+
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+background: white;
+  width: 380px;
+}
+input {
+  padding: 25px;
+  margin: 5px;
+  border-radius: 3px;
+}
+.col-xs-6 {
+  padding-top: 50px;
+}
+body {
+background: linear-gradient(to left, #D31027, #EA384D);
+}
+.operator {
+  background: blue;
+  color: white;
+  border-radius: 15px;
+ width: 90px;
+}
+#equals {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.number {
+background: linear-gradient(to right, #D31027, #EA384D);
+border-radius: 15px;
+  color: white;
+}
+#clearButton {
+  background: black;
+  color: white;
+  border-radius: 15px;
+}
+#dec {
+  border-radius: 15px;
+  background: black;
+  color: white;
+}
+#equals {
+  background: blue;
+  color: white;
+}
+#Input {
+  padding-right: 40px;
+}

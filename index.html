@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+<div class = "col-xs-6 col-xs-offset-3">
+<form name="Calc">
+ <table> 
+<tr>
+<td>
+<input type="text" id="Input" Size = "44">
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<input type= "button" class = "number" value= "  1  " OnClick="Calc.Input.value += '1'">
+<input type= "button" class = "number" value= "  2  " OnCLick="Calc.Input.value += '2'">
+<input type="button" class = "number" value= "  3  " OnClick="Calc.Input.value += '3'">
+<input type="button" class = "operator"  value= "  +  " OnClick="Calc.Input.value += ' + '">
+<br>
+<input type="button" class = "number" value= "  4  " OnClick="Calc.Input.value += '4'">
+<input type="button" class = "number" value= "  5  " OnCLick="Calc.Input.value += '5'">
+<input type="button" class = "number" value= "  6  " OnClick="Calc.Input.value += '6'">
+<input type="button" class = "operator" value= "  -  " OnClick="Calc.Input.value += ' - '">
+<br>
+<input type="button" class = "number" value= "  7  " OnClick="Calc.Input.value += '7'">
+<input type="button" class = "number" value= "  8  " OnCLick="Calc.Input.value += '8'">
+<input type="button" class = 'number' value="  9  " OnClick="Calc.Input.value += '9'">
+<input type="button" class = "operator" value="  x  " OnClick="Calc.Input.value += ' * '">
+<br>
+  <input type="button" id="dec" value="   .  " onClick="Calc.Input.value += '.'">
+
+<input type="button"  class = "number" value="  0  " OnClick="Calc.Input.value += '0'">
+  <input type="button" id="clearButton" value="  C  " onClick="Calc.Input.value = '' ">  
+<input type="button" class="operator" value="  /  " OnClick="Calc.Input.value += ' / '">
+<br>
+  <input type="button" id="equals" name="evaluate"  value="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+</td>
+</tr>
+</table>
+</form>
+  </div>
+</body>
+  
+  
+</body>
+</html>
